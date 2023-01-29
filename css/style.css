@@ -1,0 +1,241 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration:  none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.green{
+	width: 850px;
+	height: 450px;
+	background: green;
+	position: relative;
+	margin: 100px 550px -50px;
+}
+.red{
+	width: 350px;
+	height: 350px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 10%;
+	left: 28%;
+}
+.fb-share{
+	width: 100px;
+	position: fixed;
+	top: 30%;
+	right: -65px;
+	transition: 1s;
+}
+.fb-share:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.li-share{
+	width: 100px;
+	position: fixed;
+	top: 34%;
+	right: -65px;
+	transition: 1s;
+}
+.li-share:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.tw-share{
+	width: 100px;
+	position: fixed;
+	top: 38%;
+	right: -65px;
+	transition: 1s;
+}
+.tw-share:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.wa-share{
+	width: 100px;
+	position: fixed;
+	top: 42%;
+	right: -65px;
+	transition: 1s;
+}
+.wa-share:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.in-share{
+	width: 100px;
+	position: fixed;
+	top: 46%;
+	right: -65px;
+	transition: 1s;
+}
+.in-share:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.sk-share{
+	width: 100px;
+	position: fixed;
+	top: 50%;
+	right: -65px;
+	transition: 1s;
+}
+.sk-share:hover{
+	right: -5px;
+	cursor: pointer;
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 20px 0px 0px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a .fa-facebook{
+	display: block;
+	font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #1877F2;
+    color: white;
+    border: 1px solide skyblue;
+    border-radius: 20%;
+    margin: 10px 5px;
+    transition: 1s;
+}
+.social-icons li a .fa-facebook:hover{
+	background: white;
+    color: #1877F2;
+    border: 1px solide skyblue;
+}
+.social-icons li a .fa-twitter{
+	display: block;
+	font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #1D9BF0;
+    color: white;
+    border: 1px solide skyblue;
+    border-radius: 20%;
+    margin: 0px 5px;
+    transition: 1s;
+}
+.social-icons li a .fa-twitter:hover{
+	background: white;
+    color: #1D9BF0;
+    border: 1px solide skyblue;
+}
+.social-icons li a .fa-instagram{
+	display: block;
+	font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #F6067A;
+    color: white;
+    border: 1px solide skyblue;
+    border-radius: 20%;
+    margin: 0px 5px;
+    transition: 1s;
+}
+.social-icons li a .fa-instagram:hover{
+	background: white;
+    color: #F6067A;
+    border: 1px solide skyblue;
+}
+.social-icons li a .fa-linkedin{
+	display: block;
+	font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #0077B5;
+    color: white;
+    border: 1px solide skyblue;
+    border-radius: 20%;
+    margin: 0px 5px;
+    transition: 1s;
+}
+.social-icons li a .fa-linkedin:hover{
+	background: white;
+    color: #0077B5;
+    border: 1px solide skyblue;
+}
+.social-icons li a .fa-youtube{
+	display: block;
+	font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #FF0000;
+    color: white;
+    border: 1px solide skyblue;
+    border-radius: 20%;
+    margin: 0px 5px;
+    transition: 1s;
+}
+.social-icons li a .fa-youtube:hover{
+	background: white;
+    color: #FF0000;
+    border: 1px solide skyblue;
+}
+.social-icons li a .fa-whatsapp{
+	display: block;
+	font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #1BD741;
+    color: white;
+    border: 1px solide skyblue;
+    border-radius: 20%;
+    margin: 0px 5px;
+    transition: 1s;
+}
+.social-icons li a .fa-whatsapp:hover{
+	background: white;
+    color: #1BD741;
+    border: 1px solide skyblue;
+}
+.social-icons li a .fa-skype{
+	display: block;
+	font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #0493D7;
+    color: white;
+    border: 1px solide skyblue;
+    border-radius: 20%;
+    margin: 0px 5px;
+    transition: 1s;
+}
+.social-icons li a .fa-skype:hover{
+	background: white;
+    color: #0493D7;
+    border: 1px solide skyblue;
+}
